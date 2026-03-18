@@ -11,6 +11,13 @@ import AdditionalContent from './components/AdditionalContent'
 import Diverd from './components/Diverd'
 import ButtonGroup from './components/ButtonGroup'
 import ListGroup from './components/ListGroup'
+import Notifications from './components/Notifications'
+import Pagination from './components/Pagination'
+import Progress from './components/Progress'
+import Spinner from './components/Spinner'
+import Navbar from './components/Navbar'
+import PillBadges from './components/PillBadges'
+import Tab from './components/Tab'
 
 
 function App() {
@@ -86,6 +93,49 @@ function App() {
       item4={"Item 4"}
       item5={"Item 5"}
       />
+      <Notifications
+      titulo={"Notificación"}
+      span={["4"]}
+      />
+
+      <Pagination
+      btn1={"Anterior"}
+      btn2={"1"}
+      btn3={"2"}
+      btn4={"3"}
+      btn5={"Siguiente"}
+      />
+
+      <Progress
+      progreso={"25"}
+      />
+
+      <Spinner
+      span={"Cargando..."}
+      />
+
+      <Navbar
+      titulo={"Titulo"}
+      btn1={"Inicio"}
+      btn2={"Contacto"}
+      btn3={"Productos"}
+      btn4={"Reseñas"}
+      />
+      
+      <PillBadges
+      btn1={"Primario"}
+      btn2={"Secundario"}
+      btn3={"Exito"}
+      btn4={"Peligro"}
+      />
+
+      <Tab
+      btn1={"Activo"}
+      btn2={"Link"}
+      btn3={"Link"}
+      btn4={"Inactivo"}
+      />
+
     </>
   )
 }
