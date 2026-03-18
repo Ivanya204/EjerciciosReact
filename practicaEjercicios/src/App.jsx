@@ -5,6 +5,7 @@ import Card from './components/Card'
 import Badges from './components/Badges'
 import Select from './components/Select'
 import Modal from './components/Modal'
+import StaticBackdrop from './components/StaticBackdrop'
 
 
 function App() {
@@ -41,7 +42,12 @@ function App() {
       boton1={"Cancelar"}
       boton2={"Aceptar"}
       />
-      
+
+      <StaticBackdrop
+      tituloBtn={"Este es un Static Backdrop"}
+      titulOffCanva={"Titulo"}
+      texto={"Texto muy importante"}
+      />
     </>
   )
 }
